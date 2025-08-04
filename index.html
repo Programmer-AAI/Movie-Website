@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDVD - Streaming Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header data-aos="fade-down" data-aos-duration="2000">
+        <h1><span style="color: #ff0040;">Netflix</span>BD</h1>
+        <nav>
+          <a href="#">Home</a>
+          <a href="#">Movies</a>
+          <a href="#">Anime</a>
+          <a href="#">TV Series</a>
+        </nav>
+  
+        <div class="search-box">
+          <img src="image/search.png" alt="search-icon">
+          <input type="text" name="Search" placeholder="search" >
+        </div>
+    </header>
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/1.png">
+                <div class="content">
+                    <h1>Squid Game</h1>
+                    <div class="details">
+                        <p>2021</p>
+                        <p>16+</p>
+                        <p>2 Seasons</p>
+                        <p>Drama</p>
+                    </div>
+                    <h4>Hundreds of cash-strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits with deadly high stakes. A survival game that has a whopping 45.6 billion-won prize at stake.</h4>
+                    
+                    <div class="buttons">
+                        <button class="download-btn">Download</button>
+                        <button class="trailer-btn">Trailer</button>
+                    </div>
+                    <div class="vid-box">
+                        <video src="video/squid game.mp4" type="video/mp4" controls class="vid-trailer"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/2.png">
+                <div class="content">
+                    <h1>One Piece</h1>
+                    <div class="details">
+                        <p>1999</p>
+                        <p>13+</p>
+                        <p>1000+ EP</p>
+                        <p>Action</p>
+                    </div>
+                    <h4>Follows the adventures of Monkey D. Luffy and his pirate crew in order to find the greatest treasure ever left by the legendary Pirate, Gold Roger. The famous mystery treasure named "One Piece".</h4>
+        
+                    <div class="buttons">
+                        <button class="download-btn">Download</button>
+                        <button class="trailer-btn">Trailer</button>
+                    </div>
+                    <div class="vid-box">
+                        <video controls id="vid" class="vid-trailer" src="video/squid game.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/3.png">
+                <div class="content">
+                    <h1>Shogun</h1>
+                    <div class="details">
+                        <p>2021</p>
+                        <p>16+</p>
+                        <p>1 Season</p>
+                        <p>Drama</p>
+                    </div>
+                    <h4>When a mysterious European ship is found marooned in a nearby fishing village, Lord Yoshii Toranaga discovers secrets that could tip the scales of power and devastate his enemies.</h4>
+        
+                    <div class="buttons">
+                        <button class="download-btn">Download</button>
+                        <button class="trailer-btn">Trailer</button>
+                    </div>
+                    <div class="vid-box">
+                        <video controls id="vid" class="vid-trailer" src="video/squid game.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/4.png">
+                <div class="content">
+                    <h1>Demon Slayer</h1>
+                    <div class="details">
+                        <p>2019</p>
+                        <p>17+</p>
+                        <p>4 Seasons</p>
+                        <p>Action</p>
+                    </div>
+                    <h4>A family is attacked by demons and only two members survive - Tanjiro and his sister Nezuko, who is turning into a demon slowly. Tanjiro sets out to become a demon slayer to avenge his family and cure his sister.</h4>
+        
+                    <div class="buttons">
+                        <button class="download-btn">Download</button>
+                        <button class="trailer-btn">Trailer</button>
+                    </div>
+                    <div class="vid-box">
+                        <video controls id="vid" class="vid-trailer" src="video/squid game.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/5.png">
+                <div class="content">
+                    <h1>Game of Thrones</h1>
+                    <div class="details">
+                        <p>2011</p>
+                        <p>17+</p>
+                        <p>6 Seasons</p>
+                        <p>Drama</p>
+                    </div>
+                    <h4>Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia. In the Game of Thrones, you win or you die.</h4>
+        
+                    <div class="buttons">
+                        <button class="download-btn">Download</button>
+                        <button class="trailer-btn">Trailer</button>
+                    </div>
+                    <div class="vid-box">
+                        <video controls id="vid" class="vid-trailer" src="video/squid game.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/6.png">
+                <div class="content">
+                    <h1>Jujutsu Kaisen (TV)</h1>
+                    <div class="details">
+                        <p>2020</p>
+                        <p>17+</p>
+                        <p>2 Seasons</p>
+                        <p>Action</p>
+                    </div>
+                    <h4>A boy swallows a cursed talisman - the finger of a demon - and becomes cursed himself. He enters a shaman's school to be able to locate the demon's other body parts and thus exorcise himself.</h4>
+        
+                    <div class="buttons">
+                        <button class="download-btn">Download</button>
+                        <button class="trailer-btn">Trailer</button>
+                    </div>
+                    <div class="vid-box">
+                        <video controls id="vid" class="vid-trailer" src="video/squid game.mp4" type="video/mp4"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/1.png">
+                <div class="thum-content">
+                    <div class="title">
+                        Squid Game
+                    </div>
+                    <div class="description">
+                        Survival Drama
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/2.png">
+                <div class="thum-content">
+                    <div class="title">
+                        One Piece
+                    </div>
+                    <div class="description">
+                        Pirate Adventure
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/3.png">
+                <div class="thum-content">
+                    <div class="title">
+                        Shogun
+                    </div>
+                    <div class="description">
+                        Historical Drama
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/4.png">
+                <div class="thum-content">
+                    <div class="title">
+                        Demon Slayer
+                    </div>
+                    <div class="description">
+                        Supernatural Action
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/5.png">
+                <div class="thum-content">
+                    <div class="title">
+                        Game of Thrones
+                    </div>
+                    <div class="description">
+                        Fantasy Epic
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="image/6.png">
+                <div class="thum-content">
+                    <div class="title">
+                        Jujutsu Kaisen
+                    </div>
+                    <div class="description">
+                        Dark Fantasy
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <!-- Trending Now Section -->
+    <section class="trending-section">
+        <div class="section-header">
+            <h2>Trending Now</h2>
+            <a href="#" class="view-all">View All</a>
+        </div>
+        <div class="trending-container">
+            <div class="trending-item">
+                <img src="image/2.png" alt="Stranger Things">
+                <div class="trending-overlay">
+                    <h3>Stranger Things</h3>
+                    <div class="trending-details">
+                        <span>2016</span>
+                        <span>16+</span>
+                        <span>4 Seasons</span>
+                    </div>
+                    <div class="trending-buttons">
+                        <button><i class="fas fa-play"></i> Play</button>
+                        <button><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-item">
+                <img src="image/3.png" alt="The Witcher">
+                <div class="trending-overlay">
+                    <h3>The Witcher</h3>
+                    <div class="trending-details">
+                        <span>2019</span>
+                        <span>17+</span>
+                        <span>3 Seasons</span>
+                    </div>
+                    <div class="trending-buttons">
+                        <button><i class="fas fa-play"></i> Play</button>
+                        <button><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-item">
+                <img src="image/4.png" alt="Breaking Bad">
+                <div class="trending-overlay">
+                    <h3>Breaking Bad</h3>
+                    <div class="trending-details">
+                        <span>2008</span>
+                        <span>18+</span>
+                        <span>5 Seasons</span>
+                    </div>
+                    <div class="trending-buttons">
+                        <button><i class="fas fa-play"></i> Play</button>
+                        <button><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-item">
+                <img src="image/5.png" alt="Attack on Titan">
+                <div class="trending-overlay">
+                    <h3>Attack on Titan</h3>
+                    <div class="trending-details">
+                        <span>2013</span>
+                        <span>17+</span>
+                        <span>4 Seasons</span>
+                    </div>
+                    <div class="trending-buttons">
+                        <button><i class="fas fa-play"></i> Play</button>
+                        <button><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+            </div>
+            <div class="trending-item">
+                <img src="image/6.png" alt="The Mandalorian">
+                <div class="trending-overlay">
+                    <h3>The Mandalorian</h3>
+                    <div class="trending-details">
+                        <span>2019</span>
+                        <span>13+</span>
+                        <span>3 Seasons</span>
+                    </div>
+                    <div class="trending-buttons">
+                        <button><i class="fas fa-play"></i> Play</button>
+                        <button><i class="fas fa-plus"></i> My List</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Movies Section -->
+    <section class="movies-section">
+        <div class="section-header">
+            <h2>Popular Movies</h2>
+            <a href="#" class="view-all">View All</a>
+        </div>
+        <div class="movies-container">
+            <div class="movie-card">
+                <img src="image/1.png" alt="Dune Part Two">
+                <div class="movie-info">
+                    <h3>Dune: Part Two</h3>
+                    <div class="movie-details">
+                        <span>2024</span>
+                        <span>8.7/10</span>
+                    </div>
+                    <div class="movie-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="image/2.png" alt="Oppenheimer">
+                <div class="movie-info">
+                    <h3>Oppenheimer</h3>
+                    <div class="movie-details">
+                        <span>2023</span>
+                        <span>8.5/10</span>
+                    </div>
+                    <div class="movie-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="image/3.png" alt="The Dark Knight">
+                <div class="movie-info">
+                    <h3>The Dark Knight</h3>
+                    <div class="movie-details">
+                        <span>2008</span>
+                        <span>9.0/10</span>
+                    </div>
+                    <div class="movie-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="image/4.png" alt="Inception">
+                <div class="movie-info">
+                    <h3>Inception</h3>
+                    <div class="movie-details">
+                        <span>2010</span>
+                        <span>8.8/10</span>
+                    </div>
+                    <div class="movie-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="movie-card">
+                <img src="image/5.png" alt="Interstellar">
+                <div class="movie-info">
+                    <h3>Interstellar</h3>
+                    <div class="movie-details">
+                        <span>2014</span>
+                        <span>8.6/10</span>
+                    </div>
+                    <div class="movie-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Top Anime Section -->
+    <section class="anime-section">
+        <div class="section-header">
+            <h2>Top Anime</h2>
+            <a href="#" class="view-all">View All</a>
+        </div>
+        <div class="anime-container">
+            <div class="anime-card">
+                <img src="image/1.png" alt="Death Note">
+                <div class="anime-info">
+                    <h3>Death Note</h3>
+                    <div class="anime-details">
+                        <span>2006</span>
+                        <span>9.0/10</span>
+                    </div>
+                    <div class="anime-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="image/2.png" alt="Attack on Titan">
+                <div class="anime-info">
+                    <h3>Attack on Titan</h3>
+                    <div class="anime-details">
+                        <span>2013</span>
+                        <span>9.1/10</span>
+                    </div>
+                    <div class="anime-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="image/3.png" alt="Fullmetal Alchemist">
+                <div class="anime-info">
+                    <h3>Fullmetal Alchemist</h3>
+                    <div class="anime-details">
+                        <span>2003</span>
+                        <span>9.1/10</span>
+                    </div>
+                    <div class="anime-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="image/4.png" alt="Naruto Shippuden">
+                <div class="anime-info">
+                    <h3>Naruto Shippuden</h3>
+                    <div class="anime-details">
+                        <span>2007</span>
+                        <span>8.7/10</span>
+                    </div>
+                    <div class="anime-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="image/5.png" alt="Steins Gate">
+                <div class="anime-info">
+                    <h3>Steins;Gate</h3>
+                    <div class="anime-details">
+                        <span>2011</span>
+                        <span>9.1/10</span>
+                    </div>
+                    <div class="anime-buttons">
+                        <button><i class="fas fa-play"></i></button>
+                        <button><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h1><span style="color: #ff0040;">Netflix</span>BD</h1>
+                <p>Your ultimate streaming destination</p>
+            </div>
+            <div class="footer-links">
+                <div class="link-column">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Movies</a></li>
+                        <li><a href="#">TV Shows</a></li>
+                        <li><a href="#">Anime</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR</a></li>
+                    </ul>
+                </div>
+                <div class="link-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Feedback</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="social-media">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 NetflixBD Streaming Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
